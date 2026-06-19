@@ -1,0 +1,89 @@
+.heroWidth {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #F067AB;
+    border-radius: 1rem;
+}
+
+.heroP {
+    background-color: rgb(255 255 255/.15);
+    font-weight: 700;
+    font-size: .75rem;
+    display: inline-block;
+    color: white;
+    padding: .8rem;
+    border-radius: 1rem;
+    color: white;
+}
+
+.heroTitle {
+    font-size: 3rem;
+    color: white;
+    font-weight: 900;
+    margin-top: .5rem;
+}
+
+.heroP2 {
+    color: white;
+
+}
+
+.heroLink {
+    padding: 1rem;
+    color: #F067AB;
+    background-color: white;
+    border-radius: 5rem;
+}
+
+.heroLink2 {
+    padding: 1rem;
+    color: white;
+    background-color: rgb(255 255 255/.15);
+    border-radius: 5rem;
+}
+
+.heroBtn {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.heroImg img {
+    max-width: 200px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main {
+    background-color: #FFF4FB;
+}
+
+@media screen and (min-width: 768px) {
+    .heroTitle {
+        font-size: 3.75rem;
+        margin-bottom: .5rem;
+    }
+
+    .heroWidth {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .heroImg {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .heroP2 {
+        font-size: 1.125rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .heroWidth {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
