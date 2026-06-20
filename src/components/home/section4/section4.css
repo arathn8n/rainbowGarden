@@ -3,3 +3,38 @@
     margin: 0 auto;
     padding: 1rem;
 }
+
+.imgSection4 {
+    max-width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.linkSection4 {
+    padding: 1rem .5rem;
+    border-radius: 1rem;
+    border: 1px solid gray;
+    display: block;
+    text-align: center;
+}
+
+.containerArticleSection4 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .containerArticleSection4 {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+}
+
+.cardSection4 {
+    border: 1px dashed gray;
+    background-color: white;
+    padding: 1rem;
+}
