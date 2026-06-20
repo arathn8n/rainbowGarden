@@ -3,6 +3,7 @@ import './Home.css'
 import { Link } from 'react-router-dom'
 import Section2 from '../section2/section2'
 import Section3 from '../section3/Section3'
+import Section4 from '../section4/Section4'
 
 const Home = () => {
     return (
@@ -42,6 +43,7 @@ const Home = () => {
 
             <Section2 />
             <Section3 />
+            <Section4 />
         </main>
     )
 }
