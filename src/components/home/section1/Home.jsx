@@ -2,6 +2,7 @@ import React from 'react'
 import './Home.css'
 import { Link } from 'react-router-dom'
 import Section2 from '../section2/section2'
+import Section3 from '../section3/Section3'
 
 const Home = () => {
     return (
@@ -40,6 +41,7 @@ const Home = () => {
             </section>
 
             <Section2 />
+            <Section3 />
         </main>
     )
 }
