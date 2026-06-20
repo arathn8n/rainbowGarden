@@ -1,0 +1,23 @@
+.containerFooter {
+    background-color: white;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .footer {
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+    }
+}
+
+.containerFooterLinks {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}

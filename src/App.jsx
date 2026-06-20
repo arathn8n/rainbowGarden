@@ -1,7 +1,8 @@
 import React from 'react'
-import Header from './components/home/header/Header'
+import Header from './components/header/Header'
 import { Routes, Route } from 'react-router-dom'
 import Home from './components/home/section1/Home'
+import Footer from './components/footer/Footer'
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home />} />
       </Routes>
+      <Footer />
     </>
   )
 }

@@ -1,0 +1,17 @@
+.containerSection6Home {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #F067AB;
+    color: white;
+    border-radius: 1rem;
+}
+
+.linkSection6 {
+    background-color: white;
+    color: #BE185D;
+    display: inline-block;
+    padding: 1rem .5rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
