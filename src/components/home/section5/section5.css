@@ -1,0 +1,29 @@
+.containerSection5 {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.pSection5Home,
+.section5Title {
+    text-align: center;
+}
+
+.articleSection5Home {
+    border: 1px dashed gray;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.containerArticleSection5 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .containerArticleSection5 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
