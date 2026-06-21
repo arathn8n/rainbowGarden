@@ -12,11 +12,11 @@ const Section5 = () => {
 
                 <div className='containerArticleSection5'>
                     <article className='articleSection5Home'>
-                        <i className="fa-solid fa-star" style={{ color: "rgb(255, 212, 59);" }}></i>
-                        <i className="fa-solid fa-star" style={{ color: "rgb(255, 212, 59);" }}></i>
-                        <i className="fa-solid fa-star" style={{ color: "rgb(255, 212, 59);" }}></i>
-                        <i className="fa-solid fa-star" style={{ color: "rgb(255, 212, 59);" }}></i>
-                        <i className="fa-solid fa-star" style={{ color: "rgb(255, 212, 59);" }}></i>
+                        <i className="fa-solid fa-star" style={{ color: "rgb(255, 212, 59)" }}></i>
+                        <i className="fa-solid fa-star" style={{ color: "rgb(255, 212, 59)" }}></i>
+                        <i className="fa-solid fa-star" style={{ color: "rgb(255, 212, 59)" }}></i>
+                        <i className="fa-solid fa-star" style={{ color: "rgb(255, 212, 59)" }}></i>
+                        <i className="fa-solid fa-star" style={{ color: "rgb(255, 212, 59)" }}></i>
 
                         <p>"Adaptation was unexpectedly smooth. We loved the clear daily rhythm and communication."
 
@@ -25,11 +25,11 @@ const Section5 = () => {
                     </article>
 
                     <article className='articleSection5Home'>
-                        <i className="fa-solid fa-star" style={{ color: "rgb(255, 212, 59);" }}></i>
-                        <i className="fa-solid fa-star" style={{ color: "rgb(255, 212, 59);" }}></i>
-                        <i className="fa-solid fa-star" style={{ color: "rgb(255, 212, 59);" }}></i>
-                        <i className="fa-solid fa-star" style={{ color: "rgb(255, 212, 59);" }}></i>
-                        <i className="fa-solid fa-star" style={{ color: "rgb(255, 212, 59);" }}></i>
+                        <i className="fa-solid fa-star" style={{ color: "rgb(255, 212, 59)" }}></i>
+                        <i className="fa-solid fa-star" style={{ color: "rgb(255, 212, 59)" }}></i>
+                        <i className="fa-solid fa-star" style={{ color: "rgb(255, 212, 59)" }}></i>
+                        <i className="fa-solid fa-star" style={{ color: "rgb(255, 212, 59)" }}></i>
+                        <i className="fa-solid fa-star" style={{ color: "rgb(255, 212, 59)" }}></i>
 
                         <p>"Our child comes home happy — lots of movement, creativity, and warm attention. Highly recommend."
 
@@ -38,11 +38,11 @@ const Section5 = () => {
                     </article>
 
                     <article className='articleSection5Home'>
-                        <i className="fa-solid fa-star" style={{ color: "rgb(255, 212, 59);" }}></i>
-                        <i className="fa-solid fa-star" style={{ color: "rgb(255, 212, 59);" }}></i>
-                        <i className="fa-solid fa-star" style={{ color: "rgb(255, 212, 59);" }}></i>
-                        <i className="fa-solid fa-star" style={{ color: "rgb(255, 212, 59);" }}></i>
-                        <i className="fa-solid fa-star" style={{ color: "rgb(255, 212, 59);" }}></i>
+                        <i className="fa-solid fa-star" style={{ color: "rgb(255, 212, 59)" }}></i>
+                        <i className="fa-solid fa-star" style={{ color: "rgb(255, 212, 59)" }}></i>
+                        <i className="fa-solid fa-star" style={{ color: "rgb(255, 212, 59)" }}></i>
+                        <i className="fa-solid fa-star" style={{ color: "rgb(255, 212, 59)" }}></i>
+                        <i className="fa-solid fa-star" style={{ color: "rgb(255, 212, 59)" }}></i>
 
                         <p>"Finally a daycare that feels structured without being strict. Modern and cozy."
 

@@ -23,6 +23,7 @@
 .imgAboutSection1 {
     max-width: 100%;
     height: auto;
+    grid-column: 1 / span 2;
 }
 
 .containerAbout {

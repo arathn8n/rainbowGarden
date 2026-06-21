@@ -1,0 +1,25 @@
+.containerAboutSection2 {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.containerArticleAbout {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .containerArticleAbout {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+
+.articleAboutSection2 {
+    padding: 1rem;
+    border: 1px dashed gray;
+    background-color: white;
+    border-radius: 1rem;
+}
