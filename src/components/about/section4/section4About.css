@@ -3,3 +3,42 @@
     margin: 0 auto;
     padding: 1rem;
 }
+
+.imgSection4About {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+.containerArticleSection4About {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .containerArticleSection4About {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.articleCardAboutSection4 {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    border: 1px dashed gray;
+}
+
+.spanSection4 {
+    color: #C2316C;
+}
+
+.containerTestimonials {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #F068AC;
+    color: white;
+    border-radius: 1rem;
+}
