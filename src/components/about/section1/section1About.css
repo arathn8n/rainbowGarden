@@ -1,4 +1,70 @@
 .containerSection1About {
     max-width: 80rem;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .containerSection1About {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0;
+    }
+}
+
+.containerArticleAboutSection1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.imgAboutSection1 {
+    max-width: 100%;
+    height: auto;
+}
+
+.containerAbout {
+    background-color: #FFF4FB;
+}
+
+.section1About {
+    background-color: white;
+    border-radius: 1rem;
+    border: 1px dashed gray;
+    padding: 1rem;
+}
+
+.articleAbout {
+    background-color: white;
+    border-radius: 1rem;
+    border: 1px dashed gray;
+    padding: 1rem .5rem;
+    text-align: center;
+}
+
+.pArticleAbout {
+    font-size: 1.5rem;
+    color: #D84C95;
+    padding-bottom: .5rem;
+}
+
+.containerNavlinkAboutSection1 {
+    display: flex;
+    gap: 1rem;
+}
+
+.navlinkAboutSection1Book {
+    color: white;
+    padding: 1rem .5rem;
+    border-radius: 1rem;
+    background-color: #EC4899;
+}
+
+.navlinkAboutSection1Program {
+    padding: 1rem .5rem;
+    color: black;
+    border: 1px solid gray;
+    border-radius: 1rem;
 }
